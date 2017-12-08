@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "steinmetz",
+  "version": "0.1.0",
+  "description": "A tile generator for mapping applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/METACEO/nodejs.steinmetz.git"
+  },
+  "author": "James Allen <james.allen@meta.ceo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/METACEO/nodejs.steinmetz/issues"
+  },
+  "homepage": "https://github.com/METACEO/nodejs.steinmetz#readme",
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "async": "^2.6.0",
+    "canvas": "^1.6.7",
+    "lodash": "^4.17.4",
+    "pako": "^1.0.6",
+    "sharp": "^0.18.4",
+    "typescript": "^2.6.1",
+    "upng-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.45",
+    "@types/lodash": "^4.14.85",
+    "@types/node": "^8.0.53",
+    "@types/sharp": "^0.17.5"
+  }
+}
