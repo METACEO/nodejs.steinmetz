@@ -13,11 +13,12 @@ npm install --save steinmetz
 ## Objectives
 
 - [x] Render points.
-- [ ] Render points better.
 - [ ] Render polylines.
 - [ ] Render polygons.
+- [ ] Render better.
 - [ ] Render tiles other than 256px squares.
 - [ ] Complete writing documentation.
+- [ ] Complete examples/wiki.
 - [ ] Get a cool logo.
 - [ ] Support streaming in JSON objects.
 - [ ] Support an internal HTTP service with a REST API.
