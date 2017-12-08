@@ -3,11 +3,7 @@ import {lstatSync, mkdirSync} from 'fs';
 import {forEach, get, isError, toString} from 'lodash';
 import * as path from 'path';
 
-import {CanvasManagerModel} from './models/canvas-manager.model';
-import {ConfigModel} from './models/config.model';
-import {PointModel} from './models/point.model';
-import {PolygonModel} from './models/polygon.model';
-import {PolylineModel} from './models/polyline.model';
+import {CanvasManagerModel, ConfigModel, PointModel, PolygonModel, PolylineModel} from './models';
 
 /**
  * TODO: write documentation.
@@ -129,3 +125,8 @@ export class Steinmetz {
         );
     }
 }
+
+/**
+ * TODO: write documentation.
+ */
+export * from './models';
