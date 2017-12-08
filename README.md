@@ -16,11 +16,13 @@ npm install --save steinmetz
 
 ## Objectives
 
+- [ ] Prioritize objectives.
 - [x] Render points.
 - [ ] Render polylines.
 - [ ] Render polygons.
 - [ ] Render better.
 - [ ] Render tiles other than 256px squares.
+- [ ] Research into replacing the `canvas` dependency with something better, or with something that does not have so many other dependencies (Cairo specifically.)
 - [ ] Complete writing documentation.
 - [ ] Complete examples/wiki.
 - [ ] Support streaming in JSON objects.
