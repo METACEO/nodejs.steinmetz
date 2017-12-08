@@ -34,7 +34,7 @@ export class TileCursorModel {
                 public longitude: number,
                 public zoom: number) {
 
-        this.max = Math.pow(4, zoom);
+        this.max = Math.pow(2, zoom);
 
         this.tileLeft(0);
         this.tileUp(0);
