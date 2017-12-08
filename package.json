@@ -1,6 +1,6 @@
 {
   "name": "steinmetz",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A tile generator for mapping applications.",
   "main": "dist/index.js",
   "scripts": {
