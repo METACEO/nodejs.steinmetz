@@ -2,6 +2,8 @@
 
 Steinmetz (german for stonemason) is a tile generator for mapping applications.
 
+Find [a full example here](https://github.com/METACEO/nodejs.steinmetz-example) to run yourself.
+
 ## Installation & Use
 
 For programmatic usage (use in your Node.js application) install via NPM.
