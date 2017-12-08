@@ -1,3 +1,5 @@
+![Stonemason](https://cdn.rawgit.com/METACEO/nodejs.steinmetz/e004721e/steinmetz.png)
+
 # steinmetz
 
 Steinmetz (german for stonemason) is a tile generator for mapping applications.
