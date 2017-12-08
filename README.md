@@ -21,7 +21,6 @@ npm install --save steinmetz
 - [ ] Render tiles other than 256px squares.
 - [ ] Complete writing documentation.
 - [ ] Complete examples/wiki.
-- [ ] Get a cool logo.
 - [ ] Support streaming in JSON objects.
 - [ ] Support an internal HTTP service with a REST API.
 - [ ] Support configuration files.
