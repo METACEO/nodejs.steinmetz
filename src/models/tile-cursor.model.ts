@@ -1,3 +1,4 @@
+import {CoordinateModel} from './coordinate.model';
 import {PositionModel} from './position.model';
 
 /**
@@ -40,6 +41,14 @@ export class TileCursorModel {
         this.tileUp(0);
         this.tileRight(0);
         this.tileDown(0);
+    }
+
+    /**
+     * TODO: write documentation.
+     * @returns {CoordinateModel}
+     */
+    public getTileCoordinate(): CoordinateModel {
+        return new CoordinateModel(this.latitude, this.longitude);
     }
 
     /**

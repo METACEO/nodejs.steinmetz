@@ -10,6 +10,7 @@ import {CoordinateModel} from './coordinate.model';
 import {PointModel} from './point.model';
 import {PolygonModel} from './polygon.model';
 import {PolylineModel} from './polyline.model';
+import {TileCursorModel} from './tile-cursor.model';
 
 /**
  * TODO: write documentation.
@@ -59,9 +60,13 @@ export class CanvasManagerModel {
      */
     public getCanvasContext(coordinate: CoordinateModel): CanvasRenderingContext2D {
 
-        this.createNewCanvases([coordinate]);
+        const normalizedTile = new TileCursorModel(coordinate.latitude, coordinate.longitude, this.zoom);
 
-        return this.canvases[coordinate.latitude][coordinate.longitude].getContext('2d');
+        const normalizedCoordinate = normalizedTile.getTileCoordinate();
+
+        this.createNewCanvases([normalizedCoordinate]);
+
+        return this.canvases[normalizedCoordinate.latitude][normalizedCoordinate.longitude].getContext('2d');
     }
 
     /**
