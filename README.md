@@ -10,7 +10,7 @@ Find [a full example here](https://github.com/METACEO/nodejs.steinmetz-example) 
 
 ## Installation & Use
 
-For programmatic usage (use in your Node.js application) install via NPM.
+For programmatic usage (use in your Node.js application) install via NPM. Click [here](https://www.npmjs.com/package/steinmetz) to find the package's page.
 
 ```
 npm install --save steinmetz
@@ -18,7 +18,7 @@ npm install --save steinmetz
 
 ## Objectives
 
-- [x] Prioritize objectives.
+- [x] Prioritize objectives. ([90443d7](https://github.com/METACEO/nodejs.steinmetz/commit/90443d76e57fd53ccffd98b2cb12022e5a484ad6))
 - [ ] Utilize GeoJSON for data objects.
 - [ ] Provide a stream of rendered tiles, instead of writing files.
 - [x] Render points. ([3d1c44e](https://github.com/METACEO/nodejs.steinmetz/commit/3d1c44e6deb7641e2fd4c74890b0c10b1d83404d))
